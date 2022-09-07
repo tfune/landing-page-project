@@ -60,6 +60,7 @@ button {
     border-radius: 10px;
     background-color: #3882F6;
     color: #E5E7EB;
+    border-color: #E5E7EB;
 }
 
 .golf {
@@ -108,4 +109,23 @@ h2 {
 .author {
     text-align: center;
     font-size: 20px;
+}
+
+.action {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 24px;
+    margin: 50px;
+}
+
+.question {
+    color: #F9FAF8;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.action-subtext {
+    color: #E5E7EB;
 }
