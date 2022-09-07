@@ -9,13 +9,15 @@ body {
     display: flex;
     flex: 1;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0 25px;
     background-color: #1F2937;
 }
 
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 500;
 }
 
 ul {
@@ -24,8 +26,42 @@ ul {
     list-style: none;
 }
 
-a {
+a, .description {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+    background-color: #1F2937;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+button {
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
+
+.avengers {
+    width: 450px;
+    height: auto;
 }
