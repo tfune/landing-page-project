@@ -37,6 +37,7 @@ a, .description {
     justify-content: space-around;
     align-items: center;
     padding-top: 50px;
+    padding-bottom: 50px;
     background-color: #1F2937;
 }
 
@@ -64,4 +65,13 @@ button {
 .avengers {
     width: 450px;
     height: auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+.photo {
+    height: 150px;
+    width: 100px;
 }
