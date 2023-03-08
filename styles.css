@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    font-family: Tahoma, sans-serif;
+    font-family: sans-serif;
     margin: 0;
 }
 
